@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1ab8251-b929-43fc-9e69-30b47757a0b5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d2d380a-c3f1-4212-96dc-acb5585f56e7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d2d380a-c3f1-4212-96dc-acb5585f56e7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d2d380a-c3f1-4212-96dc-acb5585f56e7/storage_v2/_src_/schema/DB_LAB_02.9bwOUQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d2d380a-c3f1-4212-96dc-acb5585f56e7/storage_v2/_src_/schema/DB_LAB_02.9bwOUQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d2d380a-c3f1-4212-96dc-acb5585f56e7/storage_v2/_src_/schema/JPA_DB_01.3jOVZg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d2d380a-c3f1-4212-96dc-acb5585f56e7/storage_v2/_src_/schema/JPA_DB_01.3jOVZg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-01-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-01-entity/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-01-entity/src/main/java/edu/jpa/entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-01-entity/src/main/java/edu/jpa/entity/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-01-entity/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-01-entity/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab-02-entity-id/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-02-entity-id/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/entity/DepartmentKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/entity/DepartmentKey.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/entity/Department_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/entity/Department_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-02-entity-id/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-02-entity-id/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-04-entity-hierarchy/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-04-entity-hierarchy/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/entity/Department_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/entity/Department_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/entity/Department_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/entity/Department_3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,11 +152,22 @@
       <workItem from="1735232574178" duration="913000" />
       <workItem from="1735233565853" duration="30000" />
       <workItem from="1735233604701" duration="572000" />
-      <workItem from="1735234184100" duration="2198000" />
+      <workItem from="1735234184100" duration="2732000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

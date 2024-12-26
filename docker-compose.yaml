@@ -6,7 +6,7 @@ services:
       - SYS_NICE
     restart: always
     environment:
-      - MYSQL_DATABASE=JPA_DB_01
+      - MYSQL_DATABASE=DB_LAB_01
       - MYSQL_ROOT_PASSWORD=mauFJcuf5dhRMQrjj
     ports:
       - '3306:3306'

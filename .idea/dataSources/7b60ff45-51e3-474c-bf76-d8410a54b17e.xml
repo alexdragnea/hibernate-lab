@@ -1061,14 +1061,14 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <collation id="287" parent="1" name="utf8mb4_zh_0900_as_cs">
       <Charset>utf8mb4</Charset>
     </collation>
-    <schema id="288" parent="1" name="DB_LAB_02">
-      <IntrospectionTimestamp>2024-12-26.20:10:00</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2024-12-26.18:10:00</LocalIntrospectionTimestamp>
+    <schema id="288" parent="1" name="JPA_DB_01">
+      <IntrospectionTimestamp>2024-12-26.20:17:12</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2024-12-26.18:17:12</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="289" parent="1" name="JPA_DB_01">
-      <IntrospectionTimestamp>2024-12-26.20:10:04</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2024-12-26.18:10:04</LocalIntrospectionTimestamp>
+    <schema id="289" parent="1" name="JPA_DB_02">
+      <IntrospectionTimestamp>2024-12-26.20:17:19</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2024-12-26.18:17:19</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="290" parent="1" name="information_schema">
@@ -1081,8 +1081,6 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="293" parent="1" name="quotes">
-      <IntrospectionTimestamp>2024-12-26.20:00:53</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2024-12-26.18:00:53</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="294" parent="1" name="sys">
@@ -1110,5 +1108,146 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
+    <table id="300" parent="288" name="Company">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="301" parent="288" name="CompanyDetail">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="302" parent="289" name="Department_1">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="303" parent="289" name="Department_2">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="304" parent="289" name="Department_3">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <column id="305" parent="300" name="Company_id">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="306" parent="300" name="Company_name">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <index id="307" parent="300" name="PRIMARY">
+      <ColNames>Company_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="308" parent="300" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="309" parent="301" name="CompanyDetail_address">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="310" parent="301" name="Company_id">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="311" parent="301" name="FK4mv07r3mgituw6ypx9j2ovocv">
+      <ColNames>Company_id</ColNames>
+      <RefColNames>Company_id</RefColNames>
+      <RefTableName>Company</RefTableName>
+    </foreign-key>
+    <index id="312" parent="301" name="PRIMARY">
+      <ColNames>Company_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="313" parent="301" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="314" parent="302" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="315" parent="302" name="companyName">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="316" parent="302" name="departmentName">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="317" parent="302" name="description">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="318" parent="302" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="319" parent="302" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="320" parent="303" name="companyName">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="321" parent="303" name="departmentName">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="322" parent="303" name="description">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="323" parent="303" name="PRIMARY">
+      <ColNames>companyName
+departmentName</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="324" parent="303" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="325" parent="304" name="companyName">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="326" parent="304" name="departmentName">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="327" parent="304" name="description">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="328" parent="304" name="PRIMARY">
+      <ColNames>companyName
+departmentName</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="329" parent="304" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>

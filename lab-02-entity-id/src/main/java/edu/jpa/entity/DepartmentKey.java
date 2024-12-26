@@ -1,22 +1,10 @@
 package edu.jpa.entity;
 
-public class DepartmentKey {
+import java.io.Serializable;
+import lombok.Data;
+
+@Data
+public class DepartmentKey implements Serializable {
     private String companyName;
     private String departmentName;
-
-    public String getCompanyName() {
-        return companyName;
-    }
-
-    public void setCompanyName(String companyName) {
-        this.companyName = companyName;
-    }
-
-    public String getDepartmentName() {
-        return departmentName;
-    }
-
-    public void setDepartmentName(String departmentName) {
-        this.departmentName = departmentName;
-    }
 }
