@@ -16,6 +16,9 @@
             <name qname="@" />
             <name qname="DB_LAB_01" />
             <name qname="JPA_DB_01" />
+            <name qname="JPA_LAB_02" />
+            <name qname="JPA_DB_02" />
+            <name qname="JPA_DB_03" />
           </node>
         </introspection-scope>
       </schema-mapping>
