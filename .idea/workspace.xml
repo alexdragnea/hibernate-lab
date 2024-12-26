@@ -5,205 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1ab8251-b929-43fc-9e69-30b47757a0b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/entity/DepartmentKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/entity/Department_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/entity/Department_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/entity/Department_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/target/classes/edu/jpa/Launcher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/target/classes/edu/jpa/entity/DepartmentKey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/target/classes/edu/jpa/entity/Department_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/target/classes/edu/jpa/entity/Department_2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/target/classes/edu/jpa/entity/Department_3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02-entity-id/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/BankApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/AccountNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/AccountNumberLimitException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/ActiveAccountNotSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/BankException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/ClientNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/NotEnoughFundsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/OverDraftLimitExceededException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/model/AbstractAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/model/CheckingAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/model/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/model/Gender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/model/SavingAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/service/BankReportService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/service/BankReportServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/service/Banking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/service/BankingImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/service/storage/ClientRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/java/com/luxoft/bankapp/service/storage/MapClientRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/resources/application-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/resources/clients.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/main/resources/test-clients.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/test/java/BankApplicationTask1Tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/test/java/BankApplicationTask2Tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-t1-bank-app/src/test/java/BankApplicationTask3Tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/BankApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/AccountNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/AccountNumberLimitException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/ActiveAccountNotSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/BankException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/ClientNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/NotEnoughFundsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/OverDraftLimitExceededException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/model/AbstractAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/model/CheckingAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/model/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/model/Gender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/model/SavingAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/service/BankReportService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/service/BankReportServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/service/Banking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/service/BankingImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/service/storage/ClientRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/java/com/luxoft/bankapp/service/storage/MapClientRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/resources/application-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/resources/clients.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/main/resources/test-clients.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/test/java/BankApplicationTask1Tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/test/java/BankApplicationTask2Tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2-t1-bank-app/src/test/java/BankApplicationTask3Tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/BankApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/config/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/AccountNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/AccountNumberLimitException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/ActiveAccountNotSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/BankException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/ClientNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/NotEnoughFundsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/OverDraftLimitExceededException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/model/AbstractAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/model/CheckingAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/model/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/model/Gender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/model/SavingAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/service/BankReportService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/service/BankReportServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/service/Banking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/service/BankingImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/service/storage/ClientRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/java/com/luxoft/bankapp/service/storage/MapClientRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/main/resources/clients.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/test/java/BankApplicationTask1Tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/test/java/BankApplicationTask2Tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex3-t1-bank-app/src/test/java/BankApplicationTask3Tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/BankApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/AccountNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/AccountNumberLimitException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/ActiveAccountNotSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/BankException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/ClientNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/NotEnoughFundsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/OverdraftLimitExceededException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/exceptions/WrongFeedFileFormatException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/model/AbstractAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/model/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/model/CheckingAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/model/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/model/Identifiable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/model/SavingAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/service/BankReportService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/service/BankReportServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/service/Banking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/service/BankingImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/service/demo/BankInitializationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/service/demo/DemoBankInitializationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/service/feed/BankFeedService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/service/feed/BankFeedServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/service/feed/Feed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/service/storage/ClientStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/service/storage/MapStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/java/com/luxoft/bankapp/service/storage/Storage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/main/resources/clients.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/test/java/com/luxoft/bankapp/BankApplicationTests1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-t1-bank-app/src/test/java/com/luxoft/bankapp/BankApplicationTests2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/BankApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/commandInterface/BankCommander.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/commandInterface/commands/AbstractCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/commandInterface/commands/AddClientCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/commandInterface/commands/BankFeedCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/commandInterface/commands/BankReportCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/commandInterface/commands/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/commandInterface/commands/DepositCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/commandInterface/commands/ExitCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/commandInterface/commands/FindClientCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/commandInterface/commands/GetAccountsCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/commandInterface/commands/GetClientsCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/commandInterface/commands/SaveFeedCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/commandInterface/commands/TransferCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/commandInterface/commands/WithdrawCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/exceptions/AccountNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/exceptions/AccountNumberLimitException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/exceptions/ActiveAccountNotSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/exceptions/BankException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/exceptions/ClientNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/exceptions/NotEnoughFundsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/exceptions/OverDraftLimitExceededException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/exceptions/WrongFeedFileFormatException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/model/AbstractAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/model/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/model/AccountType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/model/CheckingAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/model/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/model/Identifiable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/model/SavingAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/BankReportService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/BankReportServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/Banking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/BankingImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/audit/Audit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/audit/AuditAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/audit/AuditService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/audit/EventConditionFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/audit/WithdrawState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/audit/events/AccountEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/audit/events/BalanceEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/audit/events/DepositEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/audit/events/WithdrawEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/demo/BankInitializationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/demo/DemoBankInitializationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/feed/BankFeedService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/feed/BankFeedServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/feed/Feed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/operations/BankingOperationsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/operations/BankingOperationsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/storage/ClientStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/storage/MapStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/java/com/luxoft/bankapp/service/storage/Storage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/main/resources/clients.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/test/java/com/luxoft/bankapp/BankApplicationTests1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/test/java/com/luxoft/bankapp/BankApplicationTests2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/test/java/com/luxoft/bankapp/BankApplicationTests3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-task1-bankapp/src/test/java/com/luxoft/bankapp/BankApplicationTests4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-03-entity-relations/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-03-entity-relations/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-03-entity-relations/src/main/java/edu/jpa/entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-03-entity-relations/src/main/java/edu/jpa/entity/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-03-entity-relations/src/main/java/edu/jpa/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-03-entity-relations/src/main/java/edu/jpa/entity/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-03-entity-relations/src/main/java/edu/jpa/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-03-entity-relations/src/main/java/edu/jpa/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-01-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-01-entity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-01-entity/src/main/java/edu/jpa/entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-01-entity/src/main/java/edu/jpa/entity/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-01-entity/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-01-entity/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-02-entity-id/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-02-entity-id/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/entity/DepartmentKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/entity/DepartmentKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/entity/Department_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-02-entity-id/src/main/java/edu/jpa/entity/Department_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-02-entity-id/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-02-entity-id/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-04-entity-hierarchy/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-04-entity-hierarchy/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,30 +43,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/alexdg/Desktop/UPB/PAJ/hibernate/pom.xml&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.16694492&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/alexdg/Desktop/UPB/PAJ/hibernate/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.16694492",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.Launcher (2)">
+}]]></component>
+  <component name="RunManager" selected="Application.Launcher (1)">
     <configuration name="Launcher (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.jpa.Launcher" />
       <module name="jpa-lab-02" />
@@ -318,9 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Launcher (2)" />
         <item itemvalue="Application.Launcher (1)" />
         <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.Launcher (2)" />
         <item itemvalue="Docker.docker-compose.yaml.mysql: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -338,6 +149,8 @@
       <workItem from="1734903089064" duration="2305000" />
       <workItem from="1735232574178" duration="913000" />
       <workItem from="1735233565853" duration="30000" />
+      <workItem from="1735233604701" duration="572000" />
+      <workItem from="1735234184100" duration="2198000" />
     </task>
     <servers />
   </component>

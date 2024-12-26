@@ -1,20 +1,18 @@
-version: '3.3'
+version: '3.8'
 services:
   db:
     image: mysql:8.0
+    cap_add:
+      - SYS_NICE
     restart: always
     environment:
-      MYSQL_DATABASE: 'db'
-      MYSQL_USER: 'user'
-      MYSQL_PASSWORD: 'password'
-      MYSQL_ROOT_PASSWORD: ""
-      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      - MYSQL_DATABASE=JPA_DB_01
+      - MYSQL_ROOT_PASSWORD=mauFJcuf5dhRMQrjj
     ports:
       - '3306:3306'
-    expose:
-      - '3306'
     volumes:
-      - my-db:/var/lib/mysql
-# Names our volume
+      - db:/var/lib/mysql
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
 volumes:
-  my-db:
+  db:
+    driver: local
