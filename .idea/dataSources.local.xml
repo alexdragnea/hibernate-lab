@@ -19,6 +19,9 @@
             <name qname="JPA_LAB_02" />
             <name qname="JPA_DB_02" />
             <name qname="JPA_DB_03" />
+            <name qname="DB_LAB_04_TABLE_PER_HIERARCHY" />
+            <name qname="DB_LAB_04_TABLE_PER_CLASS" />
+            <name qname="DB_LAB_04_TABLE_PER_SUBCLASS" />
           </node>
         </introspection-scope>
       </schema-mapping>
